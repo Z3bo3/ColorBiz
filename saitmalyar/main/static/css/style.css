@@ -162,3 +162,31 @@ h6 {
     width: 275px;
     height: 75px;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 50px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#portfolio {
+    margin-top: 200px;
+}
+
+#Logotip{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
