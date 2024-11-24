@@ -181,12 +181,10 @@ h6 {
     border-radius: 5px;
 }
 
-#portfolio {
-    margin-top: 200px;
+
+#gallery_details_button {
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
-#Logotip{
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-}
+.video-gallery {border: 3px solid #000000}

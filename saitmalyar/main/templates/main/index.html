@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="SHORTCUT ICON" href="{% static 'images/logo-title-page.ico' %}">
+        <link rel="SHORTCUT ICON" href="{% static 'images/logo4.ico' %}">
         <title>ColorBiz</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,7 +68,7 @@
                     <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#about">Обо мне</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#features">Основные операции</a>
+                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#features">Сертификат</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#gallery">Галерея</a>
@@ -83,7 +83,7 @@
             <div class="container">
               <div class="row g-4 flex-row-reverse align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="{% static 'images/billboard-1.png' %}" class="img-fluid" id="top-top-top">
+                    <img src="{% static 'images/batek-tors.png' %}" class="img-fluid" id="top-top-top">
                 </div>
                 <div class="col-md-6">
                   <h1 class="mb-4">
@@ -173,73 +173,6 @@
             </div>
         </section>
 
-        <section id="why-choose-us" class="section-padding">
-            <div class="container mt-5">
-                <div class="text-center">
-                  <h2>
-                      Основные операции
-                  </h2>
-                </div>
-                <div class="row g-4 text-center py-4 mt-4">
-                    <div class="col-md-4">
-                      <img src="{% static 'images/icon-1.png' %}" class="img-fluid">
-                      <h4 class="mt-4">
-                        Очистка и выравнивание поверхности
-                      </h4>
-                      <p>
-                        Выравнивание поверхности проводится с помощью штукатурных работ при помощи цементных и гипсовых штукатурок.
-                      </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="{% static 'images/icon-2.png' %}" class="img-fluid">
-                        <h4 class="mt-4">
-                            Нанесение огрунтовочного состава
-                        </h4>
-                        <p>
-                            Этап подготовки поверхности перед финишной отделкой. Грунтовка способствует лучшему сцеплению, укреплению и защите материала.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="{% static 'images/icon-3.png' %}" class="img-fluid">
-                        <h4 class="mt-4">
-                            Подмазка дефектных мест
-                        </h4>
-                        <p>
-                            Процесс заполнения шпаклевочными составами предварительно подгрунтованных, расширенных щелей в деревянных конструкциях, трещин в штукатурке и отдельных повреждённых мест в бетонных конструкциях.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                      <img src="{% static 'images/icon-4.png' %}" class="img-fluid">
-                      <h4 class="mt-4">
-                        Шпатлевание и шлифовка
-                      </h4>
-                      <p>
-                        Шпатлевание используется для выравнивания, а шлифование — для подготовки поверхности к последующей отделке
-                      </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="{% static 'images/icon-5.png' %}" class="img-fluid">
-                        <h4 class="mt-4">
-                          Окраска и окончательная отделка поверхности
-                        </h4>
-                        <p>
-                          Окраска производится с использованием окрасочных составов, которые содержат пигменты и связующие вещества на водной или неводной основе.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="{% static 'images/icon-6.png' %}" class="img-fluid">
-                        <h4 class="mt-4">
-                          Художественная отделка
-                        </h4>
-                        <p>
-                          В качестве дополнительной возможности можно провести следующие операции: набрызг, накатка рисунка валиком, фактурная окраска, роспись по трафарету и др..
-                        </p>
-                    </div>
-                </div>        
-            </div>
-        </section>
-
-
         <section id="gallery" class="section-padding">
           <div class="container">
               <div class="text-center mb-5">
@@ -270,6 +203,9 @@
                 </div>
               </div>
               <div class="gallery-swiper-pagination position-relative mt-5 text-center"></div>
+              <a href="{% url 'gallery' %}"><button type="button" class="btn btn-primary btn-lg mt-4" id="gallery_details_button">
+                    Просмотреть больше
+              </button></a>
           </div>
         </section>
 

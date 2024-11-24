@@ -21,5 +21,3 @@ def create(request):
     }
 
     return render(request, 'main/zayavka.html', data)
-
-
