@@ -188,3 +188,19 @@ h6 {
 }
 
 .video-gallery {border: 3px solid #000000}
+
+
+.title-gallery {
+    margin-top: 40px;
+}
+
+.image-gallery-about{
+    transform: scale(1.5);
+    margin-left: 600px;
+    margin: 55px;
+}
+
+#about-batek {
+    transform: scale(0.8);
+    border-radius: 15px;
+}
